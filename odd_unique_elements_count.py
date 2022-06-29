@@ -1,7 +1,7 @@
 x = int(input())
 l = set(map(int,input().split()))
-c=0
+s=0
 for i in l:
-    if i%2==1:
-        c+=1
-print(c)
+    if i%2!=0:
+        s+=1
+print(s)
