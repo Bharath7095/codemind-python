@@ -1,10 +1,7 @@
-arr=input()
-arr=arr.upper()
-c=0
-n=[]
-for i in arr:
-    n.append(i)
-for i in range(0,len(n)):
-    if n.count(n[i])==1 and n[i]!=' ':
-        c+=1;
-print(c)
+a=input()
+a=a.lower()
+count=0
+for i in a:
+    if a.count(i)==1 and i not in ' ':
+        count+=1
+print(count)
