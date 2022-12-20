@@ -1,15 +1,16 @@
 n=int(input())
 a=0
 b=1
-while 1:
-    c=a+b
+c=a+b
+while(1):
     a=b
     b=c
+    c=a+b
     if(c>n):
         break
-if(abs(n-a)<abs(n-b)):
-    print(a)
-elif(abs(n-a)>abs(n-b)):
+if(n-b<c-n):
     print(b)
+elif(n-b>c-n):
+    print(c)
 else:
-    print(a,b)
+    print(b,c)
