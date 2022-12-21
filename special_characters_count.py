@@ -1,7 +1,8 @@
 a=input()
+a=a.lower()
 c=0
 for i in a:
-    if i in 'a bcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ':
+    if i in "1234567890qwertyuiopasdfghjklzxcvbnm ":
         continue
     else:
         c+=1
