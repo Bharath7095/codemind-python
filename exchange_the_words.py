@@ -1,6 +1,4 @@
 a=input()
-b=list(a.split( ))
-c=[]
-for i in range(len(b)-1,-1,-1):
-    c.append(b[i])
-print(*c)
+a=a.split(" ")
+for i in range(len(a)-1,-1,-1):
+    print(a[i],end=" ")
