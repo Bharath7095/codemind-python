@@ -1,8 +1,5 @@
 a=input()
-b=list(a.split( ))
-for i in b:
-    c=''
-    for j in range(len(i)-1,-1,-1):
-        c+=i[j]
-    print(c,end=' ')
-    
+a=a.split(" ")
+for i in range(len(a)):
+    a[i]=(a[i])[::-1]
+    print(a[i],end=" ")
